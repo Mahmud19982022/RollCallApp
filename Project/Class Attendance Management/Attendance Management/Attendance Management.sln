@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attendance Management", "Attendance Management\Attendance Management.csproj", "{485F8285-1E87-4C38-942F-DFA4AB21F777}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RollCALL App", "RollCALL App\RollCALL App.vdproj", "{D52D871E-1C89-444C-84E9-3C0F7BD9607A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{485F8285-1E87-4C38-942F-DFA4AB21F777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485F8285-1E87-4C38-942F-DFA4AB21F777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485F8285-1E87-4C38-942F-DFA4AB21F777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485F8285-1E87-4C38-942F-DFA4AB21F777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D52D871E-1C89-444C-84E9-3C0F7BD9607A}.Debug|Any CPU.ActiveCfg = Debug
+		{D52D871E-1C89-444C-84E9-3C0F7BD9607A}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2071C8E-1395-4EAE-9127-F2332EA742ED}
+	EndGlobalSection
+EndGlobal

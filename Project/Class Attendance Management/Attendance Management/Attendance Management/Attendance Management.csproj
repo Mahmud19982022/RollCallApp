@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{485F8285-1E87-4C38-942F-DFA4AB21F777}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Attendance_Management</RootNamespace>
+    <AssemblyName>Attendance Management</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminHome.Designer.cs">
+      <DependentUpon>AdminHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminstudentinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminstudentinfo.Designer.cs">
+      <DependentUpon>adminstudentinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTeacherInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminTeacherInformation.Designer.cs">
+      <DependentUpon>AdminTeacherInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendance.Designer.cs">
+      <DependentUpon>Attendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class_Schedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class_Schedule.Designer.cs">
+      <DependentUpon>Class_Schedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class_Schedule3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class_Schedule3.Designer.cs">
+      <DependentUpon>Class_Schedule3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class_Schedule4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class_Schedule4.Designer.cs">
+      <DependentUpon>Class_Schedule4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DROP_APPLICATION.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DROP_APPLICATION.Designer.cs">
+      <DependentUpon>DROP_APPLICATION.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Result.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Result.Designer.cs">
+      <DependentUpon>Result.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Result_Uploadcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Result_Uploadcs.Designer.cs">
+      <DependentUpon>Result_Uploadcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentInformation.Designer.cs">
+      <DependentUpon>StudentInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Portal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Portal.Designer.cs">
+      <DependentUpon>Student_Portal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Details.Designer.cs">
+      <DependentUpon>Student_Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Course_Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Course_Details.Designer.cs">
+      <DependentUpon>Course_Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student_Portal1.cs" />
+    <Compile Include="ST_LOGINDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ST_LOGINDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ST_LOGINDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ST_LOGINDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ST_LOGINDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ST_LOGINDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ST_LOGINDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ST_LOGINDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ST_LOGINDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ST_LOGINDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ST_LOGINDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ST_LOGINDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ST_LOGINDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ST_LOGINDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ST_LOGINDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ST_LOGINDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ST_LOGINDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ST_LOGINDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ST_LOGINDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ST_LOGINDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ST_LOGINDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ST_LOGINDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ST_LOGINDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ST_LOGINDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ST_LOGINDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ST_LOGINDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ST_LOGINDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ST_LOGINDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher.Designer.cs">
+      <DependentUpon>Teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher_Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher_Information.Designer.cs">
+      <DependentUpon>Teacher_Information.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminHome.resx">
+      <DependentUpon>AdminHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminstudentinfo.resx">
+      <DependentUpon>adminstudentinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminTeacherInformation.resx">
+      <DependentUpon>AdminTeacherInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendance.resx">
+      <DependentUpon>Attendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class_Schedule.resx">
+      <DependentUpon>Class_Schedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class_Schedule3.resx">
+      <DependentUpon>Class_Schedule3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class_Schedule4.resx">
+      <DependentUpon>Class_Schedule4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DROP_APPLICATION.resx">
+      <DependentUpon>DROP_APPLICATION.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Result.resx">
+      <DependentUpon>Result.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Result_Uploadcs.resx">
+      <DependentUpon>Result_Uploadcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentInformation.resx">
+      <DependentUpon>StudentInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Portal.resx">
+      <DependentUpon>Student_Portal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Details.resx">
+      <DependentUpon>Student_Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Course_Details.resx">
+      <DependentUpon>Course_Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Teacher.resx">
+      <DependentUpon>Teacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher_Information.resx">
+      <DependentUpon>Teacher_Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="ST_LOGINDataSet.xsc">
+      <DependentUpon>ST_LOGINDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ST_LOGINDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ST_LOGINDataSet.xss">
+      <DependentUpon>ST_LOGINDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet1.xsc">
+      <DependentUpon>ST_LOGINDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ST_LOGINDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ST_LOGINDataSet1.xss">
+      <DependentUpon>ST_LOGINDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet10.xsc">
+      <DependentUpon>ST_LOGINDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ST_LOGINDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ST_LOGINDataSet10.xss">
+      <DependentUpon>ST_LOGINDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet11.xsc">
+      <DependentUpon>ST_LOGINDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ST_LOGINDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ST_LOGINDataSet11.xss">
+      <DependentUpon>ST_LOGINDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet12.xsc">
+      <DependentUpon>ST_LOGINDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ST_LOGINDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ST_LOGINDataSet12.xss">
+      <DependentUpon>ST_LOGINDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet13.xsc">
+      <DependentUpon>ST_LOGINDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ST_LOGINDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ST_LOGINDataSet13.xss">
+      <DependentUpon>ST_LOGINDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet2.xsc">
+      <DependentUpon>ST_LOGINDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ST_LOGINDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ST_LOGINDataSet2.xss">
+      <DependentUpon>ST_LOGINDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet3.xsc">
+      <DependentUpon>ST_LOGINDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ST_LOGINDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ST_LOGINDataSet3.xss">
+      <DependentUpon>ST_LOGINDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet4.xsc">
+      <DependentUpon>ST_LOGINDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ST_LOGINDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ST_LOGINDataSet4.xss">
+      <DependentUpon>ST_LOGINDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet5.xsc">
+      <DependentUpon>ST_LOGINDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ST_LOGINDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ST_LOGINDataSet5.xss">
+      <DependentUpon>ST_LOGINDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet6.xsc">
+      <DependentUpon>ST_LOGINDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ST_LOGINDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ST_LOGINDataSet6.xss">
+      <DependentUpon>ST_LOGINDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet7.xsc">
+      <DependentUpon>ST_LOGINDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ST_LOGINDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ST_LOGINDataSet7.xss">
+      <DependentUpon>ST_LOGINDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet8.xsc">
+      <DependentUpon>ST_LOGINDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ST_LOGINDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ST_LOGINDataSet8.xss">
+      <DependentUpon>ST_LOGINDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet9.xsc">
+      <DependentUpon>ST_LOGINDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="ST_LOGINDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ST_LOGINDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ST_LOGINDataSet9.xss">
+      <DependentUpon>ST_LOGINDataSet9.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\273-2738719_user-login-icon-png-transparent-background-login-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graduated.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graduated1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\282-2821580_simple-border-designs-for-project.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance-text-written-education-background-back-to-school-concept-banner-sketch-supplies-pencils-over-classroom-d-157634154.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\woman-hand-writing-attendance-marker-blue-background-professionally-79573891.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chairs-classroom-college-289740.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-administrator-male-skin-type-7-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student-attendance-icon-24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teamwork-results-achievement-concept_3446-542.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\details.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1744090.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teacher_blackboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500-5006443_identity-theft-icon-student-details-clip-art.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1744090 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%29.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,26 @@
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance Management.csproj.AssemblyReference.cache
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance_Management.Loginform.resources
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance_Management.Properties.Resources.resources
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance Management.csproj.GenerateResource.cache
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance Management.csproj.CoreCompileInputs.cache
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\bin\Debug\Attendance Management.exe.config
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\bin\Debug\Attendance Management.exe
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\bin\Debug\Attendance Management.pdb
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance Management.exe
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance Management.pdb
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance_Management.Student_Portal.resources
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance_Management.Student_Details.resources
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance_Management.Course_Details.resources
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance_Management.DROP_APPLICATION.resources
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance_Management.Result.resources
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance_Management.AdminHome.resources
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance_Management.Class_Schedule.resources
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance_Management.Class_Schedule3.resources
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance_Management.Attendance.resources
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance_Management.Result_Uploadcs.resources
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance_Management.Teacher_Portal.resources
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance_Management.adminstudentinfo.resources
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance_Management.StudentInformation.resources
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance_Management.Teacher_Information.resources
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance_Management.AdminTeacherInformation.resources
+C:\Users\SUCCESS\source\repos\Attendance Management\Attendance Management\obj\Debug\Attendance_Management.Class_Schedule4.resources
